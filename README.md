@@ -9,3 +9,21 @@ https://www.youtube.com/watch?v=3YrOOia3-mo
 
 - CRUD Tutorial - ReactJS, NodeJS, MySQL [Part 3]
 https://www.youtube.com/watch?v=_S2GKnFpdtE
+
+### mySql
+the user should change the data for the connection in `server/index.js`
+```javascript
+const db = mysql.createPool({
+    host: "localhost",
+    user: "****",
+    password: "******",
+    database: "CRUDDatabase"
+})
+```
+### Setup
+- `cd server`
+- `npm run dev`
+- `cd client`
+- `npm start`
+
+ 
